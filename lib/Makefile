@@ -5,7 +5,10 @@
 ## Makefile
 ##
 
-SRC	=	Graphics/test.c
+SRC	=	initialisation_constant.c 	\
+		Graphics/color.c 			\
+		Graphics/background.c 		\
+		Graphics/size.c
 
 CSFML_LIB = -l csfml-graphics -l csfml-system -lm -l csfml-window
 

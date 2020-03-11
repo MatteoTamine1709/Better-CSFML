@@ -8,6 +8,7 @@
 #include <../lib/include/Graphics.h>
 #include <../lib/include/System.h>
 #include <../lib/include/Window.h>
+#include <../lib/include/Constant.h>
 
 #ifndef BETTER_CSFML_H_
 #define BETTER_CSFML_H_
