@@ -4,7 +4,7 @@
 #include "../include/Constant.h"
 #include <stdio.h>
 
-int background(int r, int g, int b)
+int bsf_background(int r, int g, int b)
 {
     if (r > 255 || r < 0 || g > 255 || g < 0
         || b > 255 || b < 0) {

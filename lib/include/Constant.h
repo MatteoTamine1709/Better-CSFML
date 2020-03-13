@@ -12,6 +12,7 @@ sfEvent EVENT;
 bsfColor BACKGROUND_COLOR;
 sfColor sfBACKGROUND_COLOR;
 sfRenderWindow *WINDOW;
+bsfKeyClose KEY_CLOSE;
 
 
 void init_all_const(void);

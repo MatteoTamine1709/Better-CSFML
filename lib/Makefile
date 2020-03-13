@@ -8,7 +8,10 @@
 SRC	=	initialisation_constant.c 	\
 		Graphics/color.c 			\
 		Graphics/background.c 		\
-		Graphics/size.c
+		Graphics/size.c 			\
+		Graphics/image.c 			\
+		Graphics/quit.c 			\
+		Window/key_close.c
 
 CSFML_LIB = -l csfml-graphics -l csfml-system -lm -l csfml-window
 

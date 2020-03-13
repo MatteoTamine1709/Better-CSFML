@@ -4,22 +4,22 @@
 #include "../include/Constant.h"
 #include <stdio.h>
 
-int red(bsfColor color)
+int bsf_red(bsfColor color)
 {
     return (color.red);
 }
 
-int green(bsfColor color)
+int bsf_green(bsfColor color)
 {
     return (color.green);
 }
 
-int blue(bsfColor color)
+int bsf_blue(bsfColor color)
 {
     return (color.blue);
 }
 
-int set_red(bsfColor *color, int n)
+int bsf_set_red(bsfColor *color, int n)
 {
     if (n < 0 || n > 255) {
         printf("Warning the second parameter must be between 0 and 255\n");
@@ -29,7 +29,7 @@ int set_red(bsfColor *color, int n)
     return (0);
 }
 
-int set_green(bsfColor *color, int n)
+int bsf_set_green(bsfColor *color, int n)
 {
     if (n < 0 || n > 255) {
         printf("Warning the second parameter must be between 0 and 255\n");
@@ -39,7 +39,7 @@ int set_green(bsfColor *color, int n)
     return (0);
 }
 
-int set_blue(bsfColor *color, int n)
+int bsf_set_blue(bsfColor *color, int n)
 {
     if (n < 0 || n > 255) {
         printf("Warning the second parameter must be between 0 and 255\n");
