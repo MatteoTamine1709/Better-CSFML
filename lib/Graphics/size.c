@@ -39,4 +39,5 @@ void bsf_size(int width, int height)
         draw();
         sfRenderWindow_display(WINDOW);
     }
+    garbage_collector();
 }

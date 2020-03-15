@@ -11,7 +11,13 @@ void init_all_const(void)
     sfBACKGROUND_COLOR = sfColor_fromRGB(BACKGROUND_COLOR.red, BACKGROUND_COLOR.green, BACKGROUND_COLOR.blue);
     FRAMERATE = 60;
 
-    KEY_CLOSE.list = malloc(sizeof(int));
     KEY_CLOSE.list = NULL;
     KEY_CLOSE.size = 0;
+
+    GARBAGE.images = NULL;
+    GARBAGE.sprites = NULL;
+    GARBAGE.textures = NULL;
+    GARBAGE.nb_image = 0;
+    GARBAGE.nb_sprite = 0;
+    GARBAGE.nb_texture = 0;
 }

@@ -13,6 +13,7 @@ bsfColor BACKGROUND_COLOR;
 sfColor sfBACKGROUND_COLOR;
 sfRenderWindow *WINDOW;
 bsfKeyClose KEY_CLOSE;
+bsf_gc GARBAGE;
 
 
 void init_all_const(void);

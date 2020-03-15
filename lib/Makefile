@@ -11,6 +11,9 @@ SRC	=	initialisation_constant.c 	\
 		Graphics/size.c 			\
 		Graphics/image.c 			\
 		Graphics/quit.c 			\
+		System/garbage_collector.c 	\
+		System/garbage_constant.c 	\
+		System/garbage_add.c 		\
 		Window/key_close.c
 
 CSFML_LIB = -l csfml-graphics -l csfml-system -lm -l csfml-window
